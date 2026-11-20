@@ -3,12 +3,15 @@
 > **Pre-Application Decision, Cashflow-Readiness & Rule-Cited Scheme Recommendation Layer for Indian MSMEs**  
 > *Built for **Tech4Bharat 2026** under **Problem Statement 3.2 (Formal Credit and Schemes)** in the **MSME Finance & Compliance (`Agentic AI`)** Track.*
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-credit--bridge--alpha.vercel.app-0070F3?style=for-the-badge&logo=vercel)](https://credit-bridge-alpha.vercel.app/)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16.4.6-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![Tech4Bharat 2026](https://img.shields.io/badge/Hackathon-Tech4Bharat_2026-orange?style=for-the-badge)](https://tech4bharat.in)
 [![Deterministic Engine](https://img.shields.io/badge/Rules-100%25_Deterministic-emerald?style=for-the-badge)](https://github.com/bhargava562/creditBridge)
 [![Tests Passing](https://img.shields.io/badge/Tests-23%2F23_Passed-success?style=for-the-badge)](https://github.com/bhargava562/creditBridge)
+
+🌐 **Live Demo:** [https://credit-bridge-alpha.vercel.app/](https://credit-bridge-alpha.vercel.app/)
 
 ---
 
@@ -161,9 +164,12 @@ creditbridge/
 
 ---
 
-## 6. Quickstart & Local Setup
+## 6. Live Deployment & Local Setup
 
-### Prerequisites
+### Live Production Deployment
+* 🌐 **Live Web Application:** [https://credit-bridge-alpha.vercel.app/](https://credit-bridge-alpha.vercel.app/)
+
+### Local Prerequisites
 * **Node.js:** v18.17.0 or higher
 * **Package Manager:** npm or yarn
 
