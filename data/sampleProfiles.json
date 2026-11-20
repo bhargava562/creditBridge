@@ -1,0 +1,209 @@
+[
+  {
+    "id": "priya-boutique-solapur",
+    "businessName": "Priya's Boutique & Tailoring Works",
+    "stage": "existing",
+    "sector": "handicrafts_textiles",
+    "requestedAmount": 350000,
+    "monthlyTurnover": 95000,
+    "yearsInOperation": 4,
+    "region": "semi_urban",
+    "womenOwned": true,
+    "scStOwned": false,
+    "udyamRegistered": false,
+    "hasAuditedFinancials": false,
+    "hasPropertyCollateral": false,
+    "existingMonthlyDebt": 3000,
+    "assistedByOperator": true,
+    "operatorName": "Sunita Devi (SHG Bank Sakhi, Solapur)",
+    "operatorNotes": "Applicant runs a popular women's tailoring setup near market yard. 80%+ payments received through Google Pay / PhonePe QR. Needs funds to install 2 computerized embroidery machines and stock festive fabric inventory. No ancestral property collateral.",
+    "timeSeriesData": [
+      {
+        "period": "May 2026",
+        "inflow": 82000,
+        "outflow": 52000,
+        "netCashflow": 30000,
+        "upiSharePercent": 76,
+        "transactionCount": 142
+      },
+      {
+        "period": "Jun 2026",
+        "inflow": 89000,
+        "outflow": 55000,
+        "netCashflow": 34000,
+        "upiSharePercent": 79,
+        "transactionCount": 160
+      },
+      {
+        "period": "Jul 2026",
+        "inflow": 94000,
+        "outflow": 58000,
+        "netCashflow": 36000,
+        "upiSharePercent": 82,
+        "transactionCount": 178
+      },
+      {
+        "period": "Aug 2026",
+        "inflow": 91000,
+        "outflow": 56000,
+        "netCashflow": 35000,
+        "upiSharePercent": 81,
+        "transactionCount": 165
+      },
+      {
+        "period": "Sep 2026",
+        "inflow": 105000,
+        "outflow": 63000,
+        "netCashflow": 42000,
+        "upiSharePercent": 85,
+        "transactionCount": 210
+      },
+      {
+        "period": "Oct 2026",
+        "inflow": 112000,
+        "outflow": 67000,
+        "netCashflow": 45000,
+        "upiSharePercent": 88,
+        "transactionCount": 235
+      }
+    ]
+  },
+  {
+    "id": "kumar-fabrication-bengaluru",
+    "businessName": "Kumar Metal Fabrication & Engineering",
+    "stage": "existing",
+    "sector": "manufacturing",
+    "requestedAmount": 850000,
+    "monthlyTurnover": 380000,
+    "yearsInOperation": 3,
+    "region": "urban",
+    "womenOwned": false,
+    "scStOwned": false,
+    "udyamRegistered": true,
+    "udyamNumber": "UDYAM-KR-03-0098412",
+    "hasAuditedFinancials": false,
+    "hasPropertyCollateral": false,
+    "existingMonthlyDebt": 12000,
+    "assistedByOperator": false,
+    "operatorNotes": "Direct application by proprietor. Supplies mild steel window grills and sheet enclosures to local builders. Has active current account with regular GST challans. Seeking equipment loan for fiber laser cutter.",
+    "timeSeriesData": [
+      {
+        "period": "May 2026",
+        "inflow": 340000,
+        "outflow": 260000,
+        "netCashflow": 80000,
+        "upiSharePercent": 48,
+        "transactionCount": 68
+      },
+      {
+        "period": "Jun 2026",
+        "inflow": 365000,
+        "outflow": 275000,
+        "netCashflow": 90000,
+        "upiSharePercent": 52,
+        "transactionCount": 75
+      },
+      {
+        "period": "Jul 2026",
+        "inflow": 380000,
+        "outflow": 288000,
+        "netCashflow": 92000,
+        "upiSharePercent": 50,
+        "transactionCount": 82
+      },
+      {
+        "period": "Aug 2026",
+        "inflow": 372000,
+        "outflow": 280000,
+        "netCashflow": 92000,
+        "upiSharePercent": 55,
+        "transactionCount": 79
+      },
+      {
+        "period": "Sep 2026",
+        "inflow": 410000,
+        "outflow": 305000,
+        "netCashflow": 105000,
+        "upiSharePercent": 58,
+        "transactionCount": 94
+      },
+      {
+        "period": "Oct 2026",
+        "inflow": 425000,
+        "outflow": 315000,
+        "netCashflow": 110000,
+        "upiSharePercent": 61,
+        "transactionCount": 98
+      }
+    ]
+  },
+  {
+    "id": "aarav-dairy-muzaffarpur",
+    "businessName": "Aarav Dairy & Bio-Agro Farm",
+    "stage": "new",
+    "sector": "agri_allied",
+    "requestedAmount": 600000,
+    "monthlyTurnover": 0,
+    "yearsInOperation": 0,
+    "region": "rural",
+    "womenOwned": false,
+    "scStOwned": true,
+    "udyamRegistered": false,
+    "hasAuditedFinancials": false,
+    "hasPropertyCollateral": false,
+    "existingMonthlyDebt": 0,
+    "assistedByOperator": true,
+    "operatorName": "Ramesh Paswan (CSC VLE Operator, Sakra, Muzaffarpur)",
+    "operatorNotes": "First-generation rural entrepreneur from Scheduled Caste category setting up a 10-cow automated milking and chilling centre. Completed 2-week RSETI dairy training. Project DPR prepared by local KVK. High priority for PMEGP rural subsidy.",
+    "timeSeriesData": [
+      {
+        "period": "May 2026",
+        "inflow": 24000,
+        "outflow": 16000,
+        "netCashflow": 8000,
+        "upiSharePercent": 90,
+        "transactionCount": 42
+      },
+      {
+        "period": "Jun 2026",
+        "inflow": 27000,
+        "outflow": 18000,
+        "netCashflow": 9000,
+        "upiSharePercent": 91,
+        "transactionCount": 48
+      },
+      {
+        "period": "Jul 2026",
+        "inflow": 29000,
+        "outflow": 19000,
+        "netCashflow": 10000,
+        "upiSharePercent": 93,
+        "transactionCount": 51
+      },
+      {
+        "period": "Aug 2026",
+        "inflow": 31000,
+        "outflow": 20000,
+        "netCashflow": 11000,
+        "upiSharePercent": 92,
+        "transactionCount": 55
+      },
+      {
+        "period": "Sep 2026",
+        "inflow": 33000,
+        "outflow": 21000,
+        "netCashflow": 12000,
+        "upiSharePercent": 95,
+        "transactionCount": 62
+      },
+      {
+        "period": "Oct 2026",
+        "inflow": 35000,
+        "outflow": 22000,
+        "netCashflow": 13000,
+        "upiSharePercent": 94,
+        "transactionCount": 66
+      }
+    ]
+  }
+]
