@@ -91,8 +91,6 @@ function evaluateSingleScheme(
   let whyNotReason: string | undefined = undefined;
 
   // Check stage compatibility
-  const stageMatches = scheme.allowedStages.includes(input.stage);
-  const amountWithinRange = reqAmt >= scheme.minAmount && reqAmt <= scheme.maxAmount;
 
   if (scheme.id === 'mudra-shishu') {
     if (reqAmt > scheme.maxAmount) {
@@ -184,11 +182,12 @@ function evaluateSingleScheme(
       fitBadgeText = 'High Subsidy Benefit';
       fitHeadline = 'Up to 35% non-refundable government margin money subsidy';
       let subsidyPct = 15;
-      if (input.region === 'rural' && (input.womenOwned || input.scStOwned || input.region === 'ner_aspirational')) {
+      const isSpecialCategory = input.womenOwned || input.scStOwned || input.region === 'ner_aspirational';
+      const isRuralOrNer = input.region === 'rural' || input.region === 'ner_aspirational';
+
+      if (isRuralOrNer && isSpecialCategory) {
         subsidyPct = 35;
-      } else if (input.region === 'rural') {
-        subsidyPct = 25;
-      } else if (input.womenOwned || input.scStOwned) {
+      } else if (isRuralOrNer || isSpecialCategory) {
         subsidyPct = 25;
       }
       const estimatedSubsidy = Math.round((reqAmt * subsidyPct) / 100);

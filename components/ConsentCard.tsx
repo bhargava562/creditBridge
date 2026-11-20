@@ -6,7 +6,6 @@ import { BusinessInput, EvaluationResponse } from '@/lib/types';
 import sampleProfilesData from '@/data/sampleProfiles.json';
 import {
   ShieldAlert,
-  ShieldCheck,
   CheckCircle2,
   XCircle,
   Lock,
@@ -36,7 +35,7 @@ export default function ConsentCard() {
         setProfile(fallback);
         sessionStorage.setItem('creditbridge_active_profile', JSON.stringify(fallback));
       }
-    } catch (e) {
+    } catch {
       const fallback = sampleProfilesData[0] as BusinessInput;
       setProfile(fallback);
     }

@@ -13,11 +13,8 @@ import {
   Mic,
   ArrowRight,
   CheckCircle,
-  HelpCircle,
   Store,
   Factory,
-  Scissors,
-  Milk,
   RotateCcw
 } from 'lucide-react';
 
@@ -58,7 +55,7 @@ export default function IntakePanel() {
         setFormData(parsed);
         if (parsed.id) setSelectedPresetId(parsed.id);
       }
-    } catch (e) {
+    } catch {
       // fallback to initial state
     }
   }, []);

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Link from 'next/link';
-import { ShieldCheck, Info, FileText, CheckCircle2, ChevronRight, HelpCircle } from 'lucide-react';
+import { ShieldCheck, FileText, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'CreditBridge — Pre-Application Cashflow & Scheme Readiness for MSMEs',

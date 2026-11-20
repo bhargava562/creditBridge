@@ -3,13 +3,10 @@
 import React from 'react';
 import { CashflowSummary, TimeSeriesPoint } from '@/lib/types';
 import {
-  TrendingUp,
   Activity,
   QrCode,
-  ShieldCheck,
   CheckCircle2,
   Calendar,
-  Wallet,
   Scale
 } from 'lucide-react';
 
